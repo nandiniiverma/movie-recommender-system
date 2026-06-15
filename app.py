@@ -28,9 +28,9 @@ def fetch_poster(movie_id):
     except:
         pass
 
-    # 🔥 SMART FALLBACK (always works)
+   
     return "https://picsum.photos/300/450"
-    # fallback image (always works)
+    
     return "https://via.placeholder.com/500x750?text=No+Poster"
 
 # Recommend function
